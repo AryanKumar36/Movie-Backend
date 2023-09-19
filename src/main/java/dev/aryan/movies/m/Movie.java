@@ -1,4 +1,6 @@
-package dev.aryan.movies;
+package dev.aryan.movies.m;
+
+// Modeling of data
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

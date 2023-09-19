@@ -1,6 +1,9 @@
-package dev.aryan.movies;
+package dev.aryan.movies.m;
 //Database Access Methods Written here
-import org.bson.types.ObjectId;
+//Business logic written here
+
+import dev.aryan.movies.m.Movie;
+import dev.aryan.movies.m.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
