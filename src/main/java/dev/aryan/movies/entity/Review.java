@@ -1,4 +1,4 @@
-package dev.aryan.movies.m;
+package dev.aryan.movies.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

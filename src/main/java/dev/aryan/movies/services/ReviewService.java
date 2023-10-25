@@ -1,8 +1,8 @@
-package dev.aryan.movies.m;
+package dev.aryan.movies.services;
 
-import dev.aryan.movies.m.Movie;
-import dev.aryan.movies.m.Review;
-import dev.aryan.movies.m.ReviewRepository;
+import dev.aryan.movies.entity.Movie;
+import dev.aryan.movies.entity.Review;
+import dev.aryan.movies.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

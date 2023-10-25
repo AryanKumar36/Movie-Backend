@@ -1,11 +1,11 @@
-package dev.aryan.movies.m;
+package dev.aryan.movies.repository;
 
-import dev.aryan.movies.m.Review;
+import dev.aryan.movies.entity.Review;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ReviewRepository extends MongoRepository<Review, ObjectId>{
+public interface   ReviewRepository extends MongoRepository<Review, ObjectId>{
 
 }

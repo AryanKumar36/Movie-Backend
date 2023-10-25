@@ -1,6 +1,6 @@
-package dev.aryan.movies.m;
+package dev.aryan.movies.repository;
 
-import dev.aryan.movies.m.Movie;
+import dev.aryan.movies.entity.Movie;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

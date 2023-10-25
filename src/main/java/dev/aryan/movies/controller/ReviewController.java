@@ -1,5 +1,7 @@
-package dev.aryan.movies.m;
+package dev.aryan.movies.controller;
 
+import dev.aryan.movies.entity.Review;
+import dev.aryan.movies.services.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
